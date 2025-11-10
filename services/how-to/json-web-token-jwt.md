@@ -136,7 +136,7 @@ To generate a timestamp for testing, use an [online timestamp converter tool](ht
   </TabItem>
   <TabItem value="Programatically">
 
-Developers typically create the JWT token from their keys programmatically. To learn more, follow the tutorial demonstrating how to [create and apply a JWT with Node.js](../tutorials/ethereum/authenticate-with-jwt.md). 
+Developers typically create the JWT token from their keys programmatically. To learn more, follow the tutorial demonstrating how to [create and apply a JWT with Node.js][def]. 
 
   </TabItem>
 </Tabs>
@@ -240,5 +240,8 @@ openssl ec -in private.pem -pubout -outform DER | openssl sha256 -binary | opens
 ### Learn more
 
 - Learn more about [keeping your Infura secrets safe](https://www.infura.io/blog/post/best-practises-for-infura-api-key-management).
-- Follow a [tutorial](../tutorials/ethereum/authenticate-with-jwt.md) to create and apply a JWT to authenticate an 
+- Follow a [tutorial][def] to create and apply a JWT to authenticate an 
 `eth_blockNumber` API request.
+
+
+[def]: ../tutorials/ethereum/authenticate-with-jwt.md
